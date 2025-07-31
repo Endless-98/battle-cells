@@ -1,0 +1,39 @@
+# Ignore Python virtual environment files (common in WSL/Ubuntu)
+venv/
+pyvenv.cfg
+
+# Ignore node_modules if using npm/yarn
+node_modules/
+package-lock.json
+
+# Ignore build/output directories
+dist/
+build/
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.bak
+
+# Ignore system files
+*.swp
+
+# Ignore compiled output (if any)
+*.js.map
+
+# Ensure source files aren't ignored
+!game_of_life.js
+!index.html
+!style.css
