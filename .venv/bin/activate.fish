@@ -33,7 +33,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV /home/mohog/Projects/Portfolio/Conways-Game-Of-Life/.venv
+set -gx VIRTUAL_ENV /home/mohog/Projects/Portfolio/battle-cells/.venv
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/"bin $PATH
