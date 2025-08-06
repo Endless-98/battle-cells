@@ -11,7 +11,7 @@ const CELL_GRID_NUM_COLUMNS = 100;
 class cellGrid {
   constructor(
     color = MAIN_CELL_COLOR,
-    fillAmount = 0.05,
+    fillAmount = 0.25,
     numColumns = CELL_GRID_NUM_COLUMNS,
     numRows = CELL_GRID_NUM_ROWS
   ) {
